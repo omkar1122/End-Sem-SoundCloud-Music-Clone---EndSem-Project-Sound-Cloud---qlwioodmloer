@@ -1,0 +1,47 @@
+.songImage {
+  height: 240px;
+  width: 240px;
+}
+
+.imageContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.icon1 {
+  height: 28px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  right: 69px;
+}
+
+.icon2 {
+  height: 25px;
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  right: 69px;
+}
+
+.songName {
+  margin-top: 5px;
+  color: grey;
+  line-height: 16.94px;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 200px;
+}
+
+.songArtist {
+  margin-top: 3px;
+  color: grey;
+  line-height: 14.52px;
+  font-size: 12px;
+  max-width: 200px;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
